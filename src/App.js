@@ -7,7 +7,7 @@ import TableBooking from "./pages/js/TableBooking";
 import Menu from "./pages/js/Menu";
 import Nav from "./components/js/Nav";
 import Logo from "./Logo.png";
-import Slideshow from "./components/js/Slideshow";
+import Home from "./Home";
 
 
 function App() {
@@ -18,13 +18,10 @@ function App() {
     <img src={Logo} alt="logo" />
     <Router> 
       <Nav />
+      <Route path="/Home" component={Home} exact/>
       <Route path="/Menu" component={Menu} exact/>
       <Route path="/About" component={About} exact/>
       <Route path="/TableBooking" component={TableBooking} exact/>
-   
-      <Slideshow />
-      <Route path="/Slideshow" component={Slideshow} exact/>
-
     </Router>
     </div>
   );

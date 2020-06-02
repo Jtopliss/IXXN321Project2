@@ -1,0 +1,19 @@
+
+.About {
+    width: 1000px;
+    height: 100%;
+    text-align: center;
+    padding-left: 380px;
+    margin:20px;
+}
+
+h3 {
+    color:black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    padding-left: 30px;
+}

@@ -1,0 +1,63 @@
+.Menu {
+    width: 950px;
+    height: 100%;
+    text-align: center;
+    padding-left: 380px;
+    margin:20px;
+}
+
+h2 {
+    color:black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    margin:0px;
+    padding:-20px;
+    text-decoration: underline;
+    }
+
+    h3 {
+        color:black;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 42px;
+        text-align: center;
+        padding:10px;
+        margin:10px;
+        text-decoration: underline;
+        }
+
+    h4{ 
+        font-family:Arial;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        color:Black;
+        text-decoration:underline;
+    }
+    
+    text{
+        font-family:Arial;
+        font-size: 16px;
+    }
+
+    h5 {
+        color:black;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        padding-left:800px;
+        padding:0px;
+        }
+
+        .underline {
+            border-bottom: 5px solid currentColor;
+          }
+          

@@ -14,16 +14,19 @@ function App() {
   return (
     <div className="Main-nav">
     <div className="App"></div>
-    <h1>Jareds Restruant</h1>
-    <img src={Logo} alt="logo" />
-    <Router> 
+   <img src={Logo} alt="logo" />
+    <Router>
       <Nav />
       <Route path="/Home" component={Home} exact/>
       <Route path="/Menu" component={Menu} exact/>
       <Route path="/About" component={About} exact/>
       <Route path="/TableBooking" component={TableBooking} exact/>
     </Router>
+    <div className="Footer">
+    <p>Jared Topliss © 2020 All Rights Reserve</p>
     </div>
+    </div>
+
   );
 }
 export default App;

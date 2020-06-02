@@ -14,10 +14,11 @@ export default class extends React.Component {
         slideIndex={this.state.slideIndex}
         afterSlide={slideIndex => this.setState({ slideIndex })}
       >
-        <img src="https://www.ahstatic.com/photos/b3g8_rsr001_00_p_1024x768.jpg"alt="Food" />
-        <img src="https://images.unsplash.com/photo-1470341223622-1019832be824?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2288&q=80" alt="Food" />
-        <img src="https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2094&q=80" alt="Food" />
-        <img src="https://images.unsplash.com/photo-1534161308652-fdfcf10f62c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2174&q=80" alt="Food"  />
+        <img src="https://cdn.hipwallpaper.com/i/26/28/oFCSY3.jpg" alt="Food" />
+        <img src="https://thewallpaper.co//wp-content/uploads/2016/03preview/tellers-restaurant-and-bar-lawrence-kansa-high-quality-wallpaper-download-restaurant-photos-free-hd-images-abstract-cool-images-2880x1800.jpg"alt="Food"  />
+        <img src="https://images4.alphacoders.com/740/thumb-1920-740502.jpg" alt="Food" />
+        <img src="https://cdn.hipwallpaper.com/i/51/54/NyG9d6.jpg" alt="Food" />
+        <img src="https://www.corkandkeg.co.nz/wp-content/uploads/2019/08/bar-area-and-seating-at-Cork-and-Keg-English-Pub-and-Restaurant-in-renwick-marlborough-NZ.jpg" alt="Food" />
       
       </Carousel>
       </div>
